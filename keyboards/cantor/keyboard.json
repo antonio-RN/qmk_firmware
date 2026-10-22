@@ -51,8 +51,7 @@
     "tapping": {
         "flow_tap_term": 100,
         "permissive_hold": true,
-        "term": 199
-
+        "term": 200
    },
    "oneshot": {
        "tap_toggle": 5,
@@ -60,6 +59,10 @@
    },
    "qmk": {
        "tap_capslock_delay": 80
+   },
+   "transport": {
+       "watchdog": true,
+       "watchdog_timeout": 3000
    },
     "community_layouts": ["split_3x5_3"],
     "layouts": {
